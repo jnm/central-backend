@@ -13,7 +13,7 @@ run: base
 	node lib/bin/run-server.js
 
 debug: base
-	node --debug --inspect lib/bin/run-server.js
+	./node_modules/nodemon/bin/nodemon.js --debug --inspect=0.0.0.0:9229 lib/bin/run-server.js
 
 test: node_modules
 	env BCRYPT=no node node_modules/mocha/bin/mocha --recursive

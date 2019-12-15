@@ -17,6 +17,10 @@
       "host": "localhost",
       "port": 5000
     },
+    "enketo": {
+      "url": "http://172.17.0.1:8005",
+      "apiKey": "enketorules"
+    },
     "env": {
       "domain": "http://localhost:8989"
     },

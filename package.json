@@ -6,6 +6,7 @@
     "node": ">=8"
   },
   "dependencies": {
+    "@sentry/node": "~5",
     "archiver": "~3",
     "bcrypt": "~3",
     "body-parser": "~1.18",
@@ -27,12 +28,12 @@
     "mustache": "~2.3",
     "naught": "~1.6",
     "nodemailer": "~4.4",
+    "nodemon": "^2.0.1",
     "pg": "~7",
     "pg-query-stream": "~2",
     "prompt": "~1",
     "ramda": "~0",
     "sanitize-filename": "~1",
-    "@sentry/node": "~5",
     "tmp": "~0",
     "uuid": "~3",
     "yauzl": "~2.9"
